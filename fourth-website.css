@@ -3,12 +3,7 @@
     padding: 0;
     box-sizing: 0;
 }
-/* body{ 
-    background-image: url('assates/image/background.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
 
- } */
  body header {
     display: flex;
     
