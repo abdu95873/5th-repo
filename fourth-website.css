@@ -3,12 +3,12 @@
     padding: 0;
     box-sizing: 0;
 }
-body{
+/* body{ 
     background-image: url('assates/image/background.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 
-}
+ } */
  body header {
     display: flex;
     
@@ -17,17 +17,19 @@ header img {
    
     height: 50px;
     width: 50px;
-    padding: 100px 200px 0 100px;
+    padding: 80px 200px 0 100px;
     margin: 10px;
 }
+
 
 header nav > ul  {
     
     display: flex;
-    padding: 100px 0 0 0;
-    text-align: center;    
+    padding: 100px 0 0 15%;
+      
     
 }
+
 nav li{
     list-style: none;
     margin: 10px;
@@ -37,6 +39,23 @@ nav li{
 nav li a{
     text-decoration: none;
 }
+div ul{
+    
+}
+div li{
+    text-align: right;
+    font-size: 28px;
+    list-style: none;
+    padding: 100px 0 0 300px;
+    text-decoration: none;
+ }
+
+ div li a{
+    text-decoration: none;
+ }
+
+
+
 nav li .one{
     display: none;
     position:absolute;
@@ -68,14 +87,12 @@ body .text-and-image{
 }
 .aeticle1{
     font-size: 20px;
-    padding: 100px 0 0 0 ;
+    padding: 50px 20px ;
     font-family: 'Times New Roman', Times, serif;
     
     
 }
-footer{
-    margin: o;
-}
+
 footer .row{
     display: flex;
     margin-top: o;
